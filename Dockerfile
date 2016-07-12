@@ -27,9 +27,9 @@ RUN git clone https://github.com/sstephenson/ruby-build.git /usr/local/rbenv/plu
 ENV RBENV_ROOT /usr/local/rbenv
 ENV PATH $RBENV_ROOT/bin:$RBENV_ROOT/shims:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-# Install ruby 2.3.0
-RUN rbenv install 2.3.0
-RUN rbenv global 2.3.0
+# Install ruby 2.3.1
+RUN rbenv install 2.3.1
+RUN rbenv global 2.3.1
 
 # Install rubygems
 RUN gem install bundler
